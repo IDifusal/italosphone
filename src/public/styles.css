@@ -102,3 +102,7 @@ p{
 .features{
     margin-top: 80px;
 }
+footer{
+    height: 150px;
+    background-color: black;
+}

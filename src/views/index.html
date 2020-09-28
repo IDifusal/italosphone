@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%- tienda%></title>
+    <!--WASAP-->
+<script type="text/javascript" src="/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="/floating-wpp.min.js"></script>
+<link rel="stylesheet" href="/floating-wpp.min.css">
     <%- include("partials/navigation.html")%>
 </head>
 <body>
@@ -42,7 +46,8 @@
     
 </div>
 </div>
-</div>
+
+
     <%- include("partials/body.html")%>
    <div class="container text-center">
     <h2>
@@ -66,7 +71,6 @@
           <img class="card-img-top img-fluid" src="/xiaomi-control.jpg" alt="Card image cap" width="400">
           <div class="card-body">
             <h6 class="card-title">Mi TV stick EU</h6>
-            <p class="card-text">.card-text</p>
           </div>
         </div>
         <!-- /.card -->
@@ -76,7 +80,6 @@
           <img class="card-img-top img-fluid" src="/xiaomi-carama.jpg" alt="Card image cap" width="400">
           <div class="card-body">
             <h6 class="card-title">Mi home security cámara 1080p</h6>
-            <p class="card-text">.card-text</p>
           </div>
         </div>
         <!-- /.card -->
@@ -86,7 +89,6 @@
           <img class="card-img-top img-fluid" src="/xiaomi-airpords.jpg" alt="Card image cap" width="400">
           <div class="card-body">
             <h6 class="card-title">Mi home cámara 360 p</h6>
-            <p class="card-text">.card-text</p>
           </div>
         </div>
         <!-- /.card -->
@@ -95,7 +97,6 @@
           <img class="card-img-top img-fluid" src="/airdots.jpg" alt="Card image cap" width="400">
           <div class="card-body">
             <h6 class="card-title">Redmi airdots 2</h6>
-            <p class="card-text">.card-text</p>
           </div>
         </div>
         
@@ -146,7 +147,7 @@
             <!-- set a width on the image otherwise it will expand to full width       -->
             <img class="card-img-top img-fluid" src="/earbuds.jpg" alt="Card image cap" width="400">
             <div class="card-body">
-              <h4 class="card-title">Xiaomi Youpin Earbuds M10 </h4>
+              <h6 class="card-title">Xiaomi Youpin Earbuds M10 </h6>
 
             </div>
           </div>
@@ -183,19 +184,13 @@
       </div>
   </div>
   <!--FOOTER-->
-<footer>
-  <div class="row">
-    <div class="col-4">
-      <img src="/" alt="">
-    </div>
-    <div class="col-4"></div>
-    <div class="col-4"></div>
-  </div>
-</footer>
+  <%- include("partials/footer.html")%>
+
 
 <!--BOOTSTRAP JS-->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
 </body>
 </html>
