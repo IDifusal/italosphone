@@ -102,7 +102,33 @@ p{
 .features{
     margin-top: 80px;
 }
-footer{
-    height: 150px;
-    background-color: black;
+.footer-container{
+    height: 170px;
+    background-color: white;
+    margin-top: 85px;
+}
+
+.prueba{
+    background-color: yellow;
+}
+.navbar{
+    padding: 20px;
+}
+ .oficial a{
+    padding: 20px;
+    color: white;
+}
+.navbar li{
+    color: white;
+}
+.oficial ul li{
+    padding: 10px;
+    color: wheat;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+}
+
+.oficial ul a:hover{
+    border-bottom: 2px solid #a700ff;
+    color: white;
 }
