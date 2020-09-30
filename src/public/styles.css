@@ -132,3 +132,8 @@ p{
     border-bottom: 2px solid #a700ff;
     color: white;
 }
+.responsive {
+    width: 100%;
+    max-width: 8%;
+    height: auto;
+  }
