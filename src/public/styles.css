@@ -213,3 +213,17 @@ body h1{
     place-items:center;
     
 }
+.interesar{
+    display: grid;
+    grid-template-columns: 70% 30%;
+
+    height: 350px;
+    margin-bottom: 200px
+}
+.chayomi{
+    display: grid;
+    place-items: center;
+}
+h4{
+    font-family: 'Open Sans', sans-serif;
+}
