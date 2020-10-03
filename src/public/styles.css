@@ -227,3 +227,9 @@ body h1{
 h4{
     font-family: 'Open Sans', sans-serif;
 }
+.feibu{
+    display: grid;
+    grid-template-columns: 70% 30%;
+
+}
+
