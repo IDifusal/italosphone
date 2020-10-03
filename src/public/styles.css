@@ -96,7 +96,14 @@ p{
     border-color: #285e8e; /*set the color you want here*/
 }
 
-.cardss2{
+.cardss3{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin-top: 80px;
+}
+.cardss4{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
     margin-top: 80px;
 }
 .features img{
