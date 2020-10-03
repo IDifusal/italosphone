@@ -229,7 +229,15 @@ h4{
 }
 .feibu{
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 100%;
 
 }
 
+.palfeibu{
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    
+    height: 350px;
+    margin-bottom: 200px
+}
