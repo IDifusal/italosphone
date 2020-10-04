@@ -23,5 +23,7 @@ router.get("/Catalogo/Xiaomi-Redmi-Note-9S",(req,res)  =>{
 router.get("/Catalogo/Xiaomi-Redmi-Note-9pro",(req,res)  =>{
     res.render("Celulares/Xiaomi-Redmi-Note-9pro.html",{tienda:"Italo'sphone",equipo:""});
 });
-
+router.get("/Catalogo/Xiaomi-Poco-F2",(req,res)  =>{
+    res.render("Celulares/Xiaomi-Poco-F2.html",{tienda:"Italo'sphone",equipo:""});
+});
 module.exports = router;
