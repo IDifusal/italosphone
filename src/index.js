@@ -19,3 +19,4 @@ app.use(express.static(path.join(__dirname,"public")))
 app.listen(port, host, function() {
     console.log("Server started.......PORT 3000");
   });
+  // DETALLES BLACK FRIDAY
