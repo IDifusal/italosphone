@@ -6,7 +6,7 @@
 .navnav{
     margin-top: 0;
     height: 120px;
-    background-color: black;
+    background-color: #ef7029;
     position: sticky;
     top:0;
     z-index: 9999;
@@ -41,8 +41,8 @@ h6{
     color: white;
     
 }
-.nav-main ul li  a:hover{
-    border-bottom: 2px solid #a700ff;
+.nav-item ul li  a:hover{
+    border-bottom: 2px solid white;
     color: white;
 }
 .xiaomifeed{
@@ -97,6 +97,9 @@ p{
     background-color: #00b3db;
     border-color: #285e8e; /*set the color you want here*/
 }
+a :hover{
+    border-bottom: 2px solid white;
+}
 
 .cardss3{
     display: grid;
@@ -141,7 +144,7 @@ p{
 }
 
 .oficial ul a:hover{
-    border-bottom: 2px solid #a700ff;
+    border-bottom: 2px solid white;
     color: white;
 }
 .responsive {
