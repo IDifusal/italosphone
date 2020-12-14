@@ -445,4 +445,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741d51', end
     h6{
         font-size: 5px;
     }
+    .interesar{
+        display: grid;
+        grid-template-columns: 20% 80%;
+
+    }
   }
