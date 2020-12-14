@@ -115,7 +115,7 @@ a :hover{
      border-radius: 0px;
 }
 .features{
-    margin-top: 80px;
+    margin-top: 300px;
 }
 .footer-container{
     height: 170px;
@@ -248,8 +248,8 @@ h4{
 .palfeibu{
     margin-top: 2em;
     display: grid;
-    grid-template-columns: 50% 500%;
-    
+    grid-template-columns: 30% 70%;
+    grid-column-gap: 40px;
     height: 350px;
     margin-bottom: 200px
 }
@@ -433,3 +433,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741d51', end
 .agregar-carrito {
     margin:10px 0;
 }
+
+@media (max-width: 600px) {
+    .pdf{
+        display: none;
+    }
+  }
