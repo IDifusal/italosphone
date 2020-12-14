@@ -435,9 +435,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741d51', end
 }
 
 @media (max-width: 500px) {
-    .pdf{
-        display: none;
-    }
+
     .palfeibu{
         width: auto;
     }
