@@ -46,8 +46,11 @@ h6{
     color: white;
 }
 .xiaomifeed{
-    background: rgb(242,212,4);
-    background: linear-gradient(90deg, rgba(242,212,4,1) 0%, rgba(252,168,8,1) 100%);
+    background: #FF416C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 5rem;
 }
 .img-fluid {
     max-width: 100%;
@@ -70,6 +73,16 @@ h2{
 p{
     font-size: 15px;
     padding: 0px;
+}
+h5{
+    padding: 0px;
+    font-size: 3rem;
+    text-shadow: #000;
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 50px;
 }
 .card{
     border-radius: 4px;
@@ -216,14 +229,15 @@ body h1{
     margin-top: 1em;
     margin-bottom: 1em; 
 }
+.publi-wasap{
+    place-items:center;
+}
 .publi-wasap p{
-
     font-size: 1.2em;
     font-family: 'Barlow', sans-serif;
     color:white;
     display: grid;
-    place-items:center;
-    
+    margin-top: 0;
 }
 .interesar{
     display: flex;
@@ -446,4 +460,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741d51', end
         font-size: 5px;
     }
   
+  }
+
+  .restante{
+    background-image: url("coverpaseo.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
   }
