@@ -128,7 +128,7 @@ a :hover{
      border-radius: 0px;
 }
 .features{
-    margin-top: 800px;
+    margin-top:360px;
 }
 .footer-container{
     height: 170px;
@@ -254,17 +254,13 @@ body h1{
 h4{
     font-family: 'Open Sans', sans-serif;
 }
-.feibu{
-    display: grid;
-    grid-template-columns: 100%;
-
-}
 
 .palfeibu{
     margin-top: 2em;
-    grid-column-gap: 40px;
     height: 350px;
-    margin-bottom: 200px
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: row;
 }
 
 .fibupage{
@@ -428,7 +424,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741d51', end
     }
 }
 
-
+.caaat{
+    text-align:end;
+}
 
 .icono1 {
     background-image: url(../img/icono1.png);
