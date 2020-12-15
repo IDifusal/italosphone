@@ -446,12 +446,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741d51', end
 .agregar-carrito {
     margin:10px 0;
 }
+.catalogg{
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+    margin-top: 50px;
+}
 
-@media (max-width: 400px) {
-
+@media (max-width: 500px) {
+    .xiaomifeed{
+        height: 8rem;
+    }
+    .paseopaseo{
+        width: 20px;
+    }
     .palfeibu{
         display: flex;
-        flex-direction: row;
+        grid-template-columns: 50% 50%;
     }
     #det{
      display: none; 
@@ -459,7 +470,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741d51', end
     h6{
         font-size: 5px;
     }
-  
+    h5{
+        font-size: 14px;
+    }
   }
 
   .restante{
@@ -469,4 +482,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741d51', end
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
+  }
+  .paseocent{
+      text-align: center;
   }
