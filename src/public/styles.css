@@ -6,11 +6,15 @@
 .navnav{
     margin-top: 0;
     height: 120px;
-    background-color: #ef7029;
+
     position: sticky;
     top:0;
     z-index: 9999;
  
+}
+.oficial{
+    background: rgb(235,91,2);
+    background: linear-gradient(90deg, rgba(235,91,2,1) 0%, rgba(255,144,2,1) 50%, rgba(235,91,2,1) 100%);
 }
 
 h6{
@@ -459,3 +463,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741d51', end
   .paseocent{
       text-align: center;
   }
+
+  /* WAVES*/
