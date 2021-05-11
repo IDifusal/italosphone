@@ -3,7 +3,7 @@ const app = express();
 const path = require("path")
 
 const host = '0.0.0.0';
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 3000;
 //Settings
 app.set("port",4000);
 app.set("views",path.join(__dirname,"views"));
